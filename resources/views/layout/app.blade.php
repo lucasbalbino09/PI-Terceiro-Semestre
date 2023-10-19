@@ -138,22 +138,22 @@
             <div class="articles-footer">
 
                 <h3>Formas de pagamento</h3>
-                <ul class="footer-list footer-article-list">
-                    <li>
+                <div class="footer-list footer-article-list">
+                    <div>
                         <!-- <span class="article-date">PIX</span> -->
                         <img class="cardreey" src="/img/cardpix.png">
-                    </li>
+</div>
 
-                    <li>
+                    <div>
                         <!-- <span class="article-date">PIX</span> -->
                         <img class="cardreey" src="/img/cardvisa.png">
-                    </li>
+                    </div>
 
-                    <li>
+                    <div>
                         <!-- <span class="article-date">PIX</span> -->
                         <img class="cardreey" src="/img/boleto.jpg">
-                    </li>
-                </ul>
+                    </div>
+</div>
             </div>
         </div>
 

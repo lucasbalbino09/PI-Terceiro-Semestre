@@ -57,13 +57,12 @@ footer{
     background-color: linear-gradient(50deg,white,red);
     padding-top: 1em;
     padding-bottom: 25px;
-    border-top: 5px solid #400B06;
+    border-top: 5px solid black;
     margin-top: 10%;
 }
 
 footer h3, footer p, footer a, footer span {
-    color:#01090D;
-    
+    color:#01090D;    
 }
 
 footer h3{
@@ -86,12 +85,14 @@ footer li{
     width: 31%;
     padding: 1%;
     float: left;
+    
 }
 
 footer .wrapper:after {
     clear: both;
     content: "";
     display: block;
+    margin-left: 10px;
 }
 
 .company-footer{
@@ -142,27 +143,11 @@ footer .wrapper:after {
     display: block;
     float: none;
 }
-
-/* .footer-list li span{
-    float: left;
-    height: 30px;
-    line-height: 30px;
-} */
-
 .footer-bottom {
-    border-top: 1px solid #A62205;
+    border-top: 1px solid black;
+    
 }
-
-/* .footer-bottom p {
-    font-weight: 600;
-    margin-top: 40px;    
-} */
-
 /* FIM FOOTER */
-
-/* .container{
-    margin-top: 10%;
-} */
 
 .logo-yyt-log{
     width: 50%;
