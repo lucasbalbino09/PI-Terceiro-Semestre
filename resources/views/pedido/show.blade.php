@@ -16,8 +16,7 @@
                   <div class="col-lg-8">
                     <div class="p-5">
                         <h1  class="fw-bold mb-0 text-black">Obrigado pela compra!</h1>
-                      <div class="d-flex justify-content-between align-items-center mb-5">
-                        <!-- <h6>Obrigado por comprar na nossa loja!!</h6> -->
+                      <div class="d-flex justify-content-between align-items-center mb-5">                        
                         <br><br><br>
                         <h2 class="fw-bold mb-0 text-black"> Número do pedido:{{$pedido->PEDIDO_ID}}</h1>
 

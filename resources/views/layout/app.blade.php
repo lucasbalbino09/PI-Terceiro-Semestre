@@ -139,21 +139,17 @@
 
                 <h3>Formas de pagamento</h3>
                 <div class="footer-list footer-article-list">
-                    <div>
-                        <!-- <span class="article-date">PIX</span> -->
-                        <img class="cardreey" src="/img/cardpix.png">
-</div>
-
-                    <div>
-                        <!-- <span class="article-date">PIX</span> -->
+                    <div>                        
                         <img class="cardreey" src="/img/cardvisa.png">
                     </div>
-
                     <div>
-                        <!-- <span class="article-date">PIX</span> -->
-                        <img class="cardreey" src="/img/boleto.jpg">
+                        <img class="cardreey" src="/img/boleto.jpg">                        
+                        </div>
+                        <div>
+                            <img class="cardreey-pix" src="/img/cardpix.png">
                     </div>
-</div>
+                   
+                </div>
             </div>
         </div>
 
