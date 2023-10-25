@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="http://127.0.0.1:8000/css/login.css">
-    <title>Delta</title>
+    <title>Charlie</title>
 </head>
 <body>
 

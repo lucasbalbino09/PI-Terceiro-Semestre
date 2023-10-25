@@ -54,7 +54,7 @@
 /* FOOTER */
 
 footer{
-    background-color: linear-gradient(50deg,white,red);
+    background-color: linear-gradient(50deg,black,red);
     padding-top: 1em;
     padding-bottom: 25px;
     border-top: 5px solid black;
@@ -114,9 +114,9 @@ footer .wrapper:after {
 .footer-list a {
     transition: .5s;
 }
-
+/* todos os btns referente ao footer */
 .footer-list a:hover {
-    color:blue;
+    color:red;
 }
 
 .footer-list li:after {
@@ -194,7 +194,7 @@ text-transform: uppercase;
 /* Confirmar o esquema de cores, montar o padrão*/
 :root{
     --bg-color:#fff;
-    --text-color: #1C8394;
+    --text-color: black;
     --main-color: #A52502;
 }
 
@@ -263,7 +263,8 @@ o tamanho muito grande irá quebrar a página */
 }
 
 .navbar a:hover{
-    color: var(--main-color);
+    /* color: var(--main-color); */
+    color: #A52502;
 }
 
 .navbar a.active{
@@ -278,7 +279,8 @@ o tamanho muito grande irá quebrar a página */
 .main a{
     margin-right: 25px;
     margin-left: 10px;
-    color: var(--text-color);
+    /* color: var(--text-color); */
+    color: #000000;
     font-size: 1.1rem;
     font-weight: 500;
     transition: all .50s ease;
@@ -370,7 +372,7 @@ o tamanho muito grande irá quebrar a página */
 /* CARD BOTÂO */
 
 .buttonLogin{
-    background-color: aqua;
+    background-color: black;
     border: none;
     padding: 15px;
     width: 100%;
@@ -381,7 +383,7 @@ o tamanho muito grande irá quebrar a página */
 }
 
 button:hover{
-    background-color: deepskyblue;
+    background-color: rgb(251, 56, 56);
     cursor: pointer;
 }
 
@@ -393,7 +395,7 @@ button:hover{
 }
 
 .buttonsair{
-    background-color: rgb(47, 240, 240);
+    background-color:black;
     border: none;
     padding: 10px;
     width: 90%;
@@ -404,14 +406,14 @@ button:hover{
 }
 
 button:hover{
-    background-color: rgb(20, 164, 212);
+    background-color:white;
     cursor: pointer;
 }
 
 /* ------------------------------------- */
 .principal-yt{
     width: 30%;
-    background-color: #1C8394;
+    background-color: black;
     position:static;
     top:0px;
     left:0%;
@@ -433,7 +435,7 @@ button:hover{
 }
 
 .button-nxy{
-    background-color: aqua;
+    background-color: black;
     border: none;
     padding: 15px;
     width: 50%;
@@ -442,9 +444,9 @@ button:hover{
     font-size: 15px;    
     margin-top:5%;
 }
-
+/* botão do carrocel */
 button:hover{
-    background-color: deepskyblue;
+    background-color:rgba(0, 0, 0, 0.103);
     cursor: pointer;
 }
 

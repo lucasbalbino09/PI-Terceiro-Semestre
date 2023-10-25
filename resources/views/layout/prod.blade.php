@@ -124,8 +124,8 @@
                 <div class="company-footer">
 
                     <img class="logo-yyt-log" src="/img/logoOficialOficial.png">
-                    <h3>Delta</h3>
-                    <p>A loja de esportes mais amada do Brasil</p>
+                    <h3>Charlie</h3>
+                    <p>A loja que todo Otaku Br Ama!</p>
 
                 </div>
             </div>
@@ -182,7 +182,7 @@
             </div>
             <div class="footer-bottom">
             <div class="wrapper">
-                <p>@Delta - 2023</p>
+                <p>@Charlie - 2023</p>
             </div>
             </div>
             </footer>

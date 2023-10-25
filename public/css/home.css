@@ -1,12 +1,3 @@
-/*/css/index.css para selecionar a pasta no html
-#img1{
-    float: left;
-}
-
-.bicicleta-lista > ul{
-    list-style: none;
-}
-
 /*Link do css lista*/
 .moto > ul {
     list-style: none;
@@ -99,7 +90,7 @@ text-transform: uppercase;
 /* Confirmar o esquema de cores, montar o padrão*/
 :root{
     --bg-color:#fff;
-    --text-color: #1C8394;
+    --text-color: black;
     --main-color: #A52502;
 }
 
