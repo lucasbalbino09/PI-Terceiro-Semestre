@@ -19,12 +19,12 @@
         </tr>
 
   </table>
-
+  
+  <div class="voltar">
       <a href="{{route('usuarios.edit',['user'=>$user->USUARIO_ID])}} " class="btn btn-dark" role="button">Editar</a></td>
 
-      <div class="d-flex justify-content-between mb-4">
                         <a href="/">
-                          <button type="submit" class="buttonvolt">Voltar</button>
+                          <button type="submit" class="btn btn-danger">Voltar</button>
                         </a>
 
       </div>

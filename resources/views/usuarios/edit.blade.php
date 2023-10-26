@@ -27,10 +27,10 @@
                                     <input type="email" class="form-control" id="exampleInputPassword1" name="USUARIO_EMAIL" value="{{$user->USUARIO_EMAIL}}" required>
                             </div>
                                 
-                            <button id ="saveEditor" type="submit" class=" btn btn-primary btn-lg ms-auto mb-1 pr-6  fs-6">Salvar</button>
-                            <div class="d-flex justify-content-between mb-4">
+                            <div class="salvar-editar">
+                            <button id ="saveEditor" type="submit" class="btn btn-primary">Salvar</button>
                                     <a href="/">
-                                        <button type="submit" class="buttonvolt">Voltar</button>
+                                        <button type="submit" class="btn btn-danger">Voltar</button>
                                     </a>
                             </div>        
             </form>
