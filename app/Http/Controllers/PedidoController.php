@@ -6,6 +6,7 @@ use App\Models\Pedido;
 use App\Models\Carrinho;
 use App\Models\PeditoItem;
 use Illuminate\Http\Request;
+use App\Models\Endereco;
 use illuminate\Support\Facades\Auth;
 
 
@@ -25,8 +26,8 @@ class PedidoController extends Controller
         $pedido =Pedido::create([
             'USUARIO_ID' => Auth::user()->USUARIO_ID,
             'STATUS_ID' => 2,
+            // 'ENDERECO_ID' => Endereco::index()->ENDERECO_ID,
             'PEDIDO_DATA'=> date("Y/m/d") 
-
         ]);
 
         $itens = Carrinho::where([['USUARIO_ID','=', Auth::user()->USUARIO_ID], ['ITEM_QTD', '>', 0]])

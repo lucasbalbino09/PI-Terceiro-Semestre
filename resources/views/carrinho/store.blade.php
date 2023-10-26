@@ -106,7 +106,8 @@
 
                         <form action="{{route('pedido.checkout')}}"  method="POST">
                         @csrf
-                        <button type="submit" class="buttonfinalizar">Finalizar</button></form>
+                        <button type="submit" class="buttonfinalizar">Finalizar</button>
+                      </form>
 
                 </form>
                     </div>
