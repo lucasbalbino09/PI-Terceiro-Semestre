@@ -73,7 +73,7 @@
                 <!-- Arrumar botão transparente de pesquisa -->
                 <form action="../produto" class="d-flex" role="search" method="GET">
                     <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"><i class="ri-search-line"></i></button>
+                    <button class="btn btn-outline-danger" type="submit"><i class="ri-search-line"></i></button>
                   </form>
 
                 <a href="../login" class="user"><i class="ri-user-fill"></i>Fazer Login</a>
@@ -89,7 +89,7 @@
                 <!-- Arrumar botão transparente de pesquisa -->
                 <form action="../produto" class="d-flex" role="search" method="GET">
                     <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"><i class="ri-search-line"></i></button>
+                    <button class="btn btn-outline-danger" type="submit"><i class="ri-search-line"></i></button>
                   </form>
 
                   <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

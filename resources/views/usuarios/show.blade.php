@@ -6,7 +6,7 @@
       <h1>Email: {{$user->USUARIO_EMAIL}}</h1>
       <h1>CPF: {{$user->USUARIO_CPF}}</h1>
 
-      <a href="{{route('usuarios.edit',['user'=>$user->USUARIO_ID])}} " class="btn btn-primary" role="button">Editar</a></td>
+      <a href="{{route('usuarios.edit',['user'=>$user->USUARIO_ID])}} " class="btn btn-dark" role="button">Editar</a></td>
 
       <div class="d-flex justify-content-between mb-4">
                         <a href="/">

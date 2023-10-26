@@ -37,7 +37,7 @@
     text-align: center;
     /*Caso vc queira ajustar o tamanho dos seus produtos ou até mesmo diminuir
     coloca o padding que ele vai ajudar*/
-    padding: 10%;
+    padding: 5%;
 }
 
 .produtos02{
@@ -480,7 +480,7 @@ h1{
 }
 
 .buttonvolt{
-    background-color: rgb(10, 53, 53);
+    background-color: rgb(184, 18, 6);
     border: none;
     padding: 15px;
     width: 100%;
@@ -494,7 +494,7 @@ h1{
     border:4px solid black;
     width: 50%;
     transform: translate(50%,-10%);
-    background-color: #1C8394;
+    background-color: #94241c;
     color:white;
     margin-top: 3%;
 }
@@ -506,10 +506,13 @@ h1{
 
 .principal-poy{
     border: 4px solid rgb(232, 15, 15);
-    width: 50%;
+    width: 60%;
     transform: translate(50%,-10%);
-    margin-top: 3%;
-    background-color: rgba(9, 6, 6, 0.741);
-    color:white;
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     border-radius: 10px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
