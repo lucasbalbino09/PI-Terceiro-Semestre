@@ -21,14 +21,14 @@
                 <li>
                     <form action="{{route('endereco.store')}}"  method="POST">
                       @csrf
+                      <div>
+                          <label for="">LOGRADOURO</label>
+                          <input class="inputLogin" type="text" name="ENDERECO_LOGRADOURO" required>
+                      </div>
+
                         <div>
                             <label for="">Nome(Ex:casa, trabalho e etc.)</label>
                             <input class="inputLogin" type="text" name="ENDERECO_NOME" required>
-                        </div>
-
-                        <div>
-                            <label for="">LOGRADOURO</label>
-                            <input class="inputLogin" type="text" name="ENDERECO_LOGRADOURO" required>
                         </div>
 
                         <div>

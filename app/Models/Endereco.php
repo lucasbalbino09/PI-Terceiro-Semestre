@@ -21,11 +21,11 @@ class Endereco extends Model
         'ENDERECO_COMPLEMENTO',
         'ENDERECO_CEP',
         'ENDERECO_CIDADE',
-        'ENDERECO_ESTADO',
-        'ENDERECO_APAGADO'
+        'ENDERECO_ESTADO'        
     ];
     public function enderecoUsuario(){
         $endereco= $this->hasMany(Endereco::class, 'USUARIO_ID', 'USUARIO_ID');
         return $endereco;
     }
+   
 }

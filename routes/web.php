@@ -58,7 +58,7 @@ Route::get('/endereco/{endereco}/edit',[EnderecoController::class,'edit'])->name
 Route::put('/endereco/{endereco}',[EnderecoController::class,'update'])->name('endereco.update');
 Route::put('/endereco/{end}',[EnderecoController::class,'delete'])->name('endereco.delete');
 
-Route::post('/pedido',[PedidoController::class,'checkout'])->name('pedido.checkout');
+Route::post('/pedido-checkout',[PedidoController::class,'checkout'])->name('pedido.checkout');
 Route::get('/pedido',[PedidoController::class,'index'])->name('pedido.index');
 Route::get('/pedido/{pedido}',[PedidoController::class,'show'])->name('pedido.show');
 

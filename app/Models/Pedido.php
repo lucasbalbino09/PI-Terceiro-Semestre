@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\PeditoItem;
 
+
+
 class Pedido extends Model
 {
     use HasFactory;
@@ -14,6 +16,7 @@ class Pedido extends Model
 
     protected $fillable = [
         'USUARIO_ID',
+        'ENDERECO_ID',
         'STATUS_ID',
         'PEDIDO_DATA'
     ];
@@ -29,4 +32,5 @@ class Pedido extends Model
         $statusItem= $this->hasMany(PeditoItem::class, 'PEDIDO_ID', 'PEDIDO_ID');
         return $statusItem;
     }
+    
 }
