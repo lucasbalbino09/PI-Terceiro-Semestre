@@ -16,37 +16,26 @@
 
                             <div class="form-group">
 
-                                    <label for="exampleInputEmail1">Nome</label>
+                                    <label for="exampleInputEmail1">Nome:</label>
                                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  name="USUARIO_NOME" value="{{$user->USUARIO_NOME}}" required>
                                     <small id="emailHelp" class="form-text text-muted" ></small>
 
-                                </div>
+                            </div>
 
-                                <div class="form-group">
-                                    <label for="exampleInputPassword1">Email</label>
+                            <div class="form-group">
+                                    <label for="exampleInputPassword1">E-mail:</label>
                                     <input type="email" class="form-control" id="exampleInputPassword1" name="USUARIO_EMAIL" value="{{$user->USUARIO_EMAIL}}" required>
-                                </div>
+                            </div>
                                 
-                                <button type="submit" class="d-flex justify-content-end btn btn-primary btn-lg ms-auto mb-4 p-2 fs-6">Editar</button>
-
-                              
-                                    </div>
-                        </form>
-                        <div class="d-flex justify-content-between mb-4">
+                            <button id ="saveEditor" type="submit" class=" btn btn-primary btn-lg ms-auto mb-1 pr-6  fs-6">Salvar</button>
+                            <div class="d-flex justify-content-between mb-4">
                                     <a href="/">
                                         <button type="submit" class="buttonvolt">Voltar</button>
                                     </a>
-
-
-
-                    </div>
-                  </div>
-
-            </div>
+                            </div>        
+            </form>
         </div>
-    </div>
-    </div>
-</div>
+
 
 
     @endsection
