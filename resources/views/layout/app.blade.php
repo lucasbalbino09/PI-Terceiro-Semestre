@@ -121,8 +121,7 @@
              <div class="company-footer">
 
                 <img class="logo-yyt-log" src="/img/logoOficialOficial.png">
-                <h3>Charlie</h3>
-                <p>A loja que todo Otaku Br Ama!</p>
+                <p>A LOJA QUE TODO OTAKU AMA!</p>
 
             </div>
         </div>
@@ -133,11 +132,11 @@
                 <h3>Formas de pagamento</h3>
                 <div class="footer-list footer-article-list">
                     <div>                        
-                        <img class="cardreey" src="/img/cardvisa.png">
+                        <img class="cardreey-boleto" src="/img/boleto.jpg">
                     </div>
                     <div>
-                        <img class="cardreey" src="/img/boleto.jpg">                        
-                        </div>
+                        <img class="cardreey" src="/img/cardvisa.png">                        
+                    </div>
                         <div>
                             <img class="cardreey-pix" src="/img/cardpix.png">
                     </div>
@@ -147,30 +146,32 @@
         </div>
 
             <div class="footer-box">
-                <h3>Redes Sociais</h3>
-                <ul class="footer-list">
-                    <li>
-                        <a href="#">
-                            <!-- Icon facebook -->
-                            <i class="ri-facebook-box-fill"></i>
-                            <span>Facebook</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <!-- Icon Instagram -->
-                            <i class="ri-instagram-line"></i>
-                            <span>Instagram</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <!-- Icon youtube -->
-                            <i class="ri-youtube-fill"></i>
-                            <span>Youtube</span>
-                        </a>
-                    </li>
-                </ul>
+                <div class="footer-social">
+                    <h3>Redes Sociais</h3>
+                    <ul class="footer-list">
+                        <li>
+                            <a class="icon-face" href="#">
+                                <!-- Icon facebook -->
+                                <i class="ri-facebook-box-fill"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-insta" href="#">
+                                <!-- Icon Instagram -->
+                                <i class="ri-instagram-line"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-you" href="#">
+                                <!-- Icon youtube -->
+                                <i class="ri-youtube-fill"></i>
+                                <span>Youtube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

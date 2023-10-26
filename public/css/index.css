@@ -53,15 +53,21 @@
 /* FOOTER */
 
 footer{
-    background-color: linear-gradient(50deg,black,red);
+    background: radial-gradient(circle, rgba(0,0,0,1) 27%, rgba(131,128,124,1) 100%);
     padding-top: 1em;
     padding-bottom: 25px;
     border-top: 5px solid black;
     margin-top: 10%;
+    text-align: center;
 }
 
 footer h3, footer p, footer a, footer span {
-    color:#01090D;    
+    color:#ffffff;  
+      
+}
+
+footer p {
+    text-align: center;
 }
 
 footer h3{
@@ -72,9 +78,7 @@ footer a{
     text-decoration: none;
 }
 
-footer ul{
-    padding: 0;
-} 
+
 
 footer li{
     list-style: none;
@@ -85,6 +89,7 @@ footer li{
     padding: 1%;
     float: left;
     
+    
 }
 
 footer .wrapper:after {
@@ -92,37 +97,84 @@ footer .wrapper:after {
     content: "";
     display: block;
     margin-left: 10px;
+
 }
+
+
 
 .company-footer{
-    width: 80%;
-} 
-
-.company-footer h3{
-    margin-top: 20px;
+    width: 100%;
+    text-align: center;
 }
 
-.company-footer h3, .company-footer p {
-    margin-bottom: 20px;
+.company-footer img {
+    width: 170px;
+}
+
+
+
+ .company-footer p {
+    margin-top: 35px;
+    font-size: 19px;
+    font-family: Trattatello, fantasy;
+    letter-spacing: 2px;
 }
 
 .footer-list li {
     margin-bottom: 15px;
+    text-align: left;
+    margin-left: 100px;
 }
 
 .footer-list a {
     transition: .5s;
 }
 /* todos os btns referente ao footer */
-.footer-list a:hover {
-    color:red;
-}
+
+
 
 .footer-list li:after {
     clear: both;
     content: "";
     display: block;
 }
+
+.footer-social {
+    width: 100%;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.icon-face {
+    
+        color: rgb(25, 0, 255);
+        transition: color 0.3s;     
+}
+
+.icon-face:hover {
+    color: rgb(255, 255, 255); /* Mude a cor do texto quando o mouse passar por cima */
+}
+
+.icon-insta {
+    
+    color: rgb(197, 15, 100);
+    transition: color 0.3s;     
+}
+
+.icon-insta:hover {
+color: rgb(255, 255, 255); /* Mude a cor do texto quando o mouse passar por cima */
+}
+
+.icon-you {
+    
+    color: rgb(255, 0, 0);
+    transition: color 0.3s;     
+}
+
+.icon-you:hover {
+color: rgb(255, 255, 255); /* Mude a cor do texto quando o mouse passar por cima */
+}
+
 
 .logo-yt{
     width: 4%;
@@ -135,7 +187,10 @@ footer .wrapper:after {
 }
 
 .articles-footer {
-    width: 80%;
+    width: 100%;
+    align-items: center;
+    margin-left: 25px ;
+
 }
 
 .footer-list.footer-article-list {
@@ -389,16 +444,29 @@ button:hover{
 
 /* essa são as formas de pagamento */
 .cardreey{
-    width: 80%;
+    width: 100%;
     display: block;
-    margin-left: 50px;
+    margin-left: 40px;
+    
     border-radius: 30%;
 }
 .cardreey-pix {
-    width: 50%;
+    width: 41%;
+    height: 54%;
     margin-left: 50px;
     display: block;
-    border-radius: 30%;
+    border-radius: 6%;
+    margin-top: 19px;
+}
+
+.cardreey-boleto{
+    width: 80%;
+    height: 53%;
+    margin-left: 60px;
+    display: block;
+    border-radius: 6%;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 .buttonsair{
@@ -420,14 +488,13 @@ button:hover{
 /* ------------------------------------- */
 .principal-yt{
     width: 30%;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     position:static;
     top:0px;
     left:0%;
     padding: 0px;
     border-radius: 30px;
-    border: solid 1px black;
-    color:rgb(0, 0, 0);
+    color:white;
     margin-top: 5%;
     margin-bottom: 0;
     text-align: center;
@@ -436,7 +503,7 @@ button:hover{
 
 .inputLogin{
     padding: 10px;
-    border:solid 1px black;
+    border:none;
     outline: none;
     font-size: 15px;
     color: black;
@@ -483,56 +550,69 @@ h1{
 .buttonvolt{
     background-color: rgb(184, 18, 6);
     border: none;
-    padding: 15px;
+    padding: 9px 15px;  
     width: 100%;
-    border-radius: 10px;
+    border-radius: 6px;
     color:white;
     font-size: 15px;    
     margin-top:5%;
 }
 
 .principal-typ{
-    /* border:1px solid black; */
-    font-size: 25px;
-    width: 50%;
-    transform: translate(50%,-10%);
-    background-color: #ffffff;
-    color:rgb(2, 2, 2);
+    border:4px solid black;
+    width: 60%;
+    margin-left: 20%;
+    background: radial-gradient(circle, rgba(87,84,81,1) 0%, rgba(0,0,0,1) 77%);
+    color:white;
     margin-top: 3%;
+    border-radius: 10px;
+    padding: 25px 12px 10px;
 }
-.voltar {
-    display: flex;
-    justify-content: center;
-}
-.Editar {    
-    display: flex;
-    justify-content: end;
-    margin-top: 15px;
-}
+
 .principal-rty{
     /* border:4px solid black; */
     margin: 2%;
 }
 
 .principal-poy{
-    border: 4px solid rgb(232, 15, 15);
-    width: 50%;
-    transform: translate(50%,-10%);
-    margin-top: 10%;
+    border: 4px solid rgb(0, 0, 0);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
     border-radius: 10px;
-    padding-top: 5%;
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-top: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-.editar {    
-    position: relative;
-    top: 40px;
 
+
+#tabelaPerfil{
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px auto;        
 }
-.voltar {
-    display: flex;
-    justify-content: end;
-    margin-bottom: 5px;    
+    
+#tabelaPerfil th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+     padding: 8px;
 }
+    
+#tabelaPerfil tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+    
+#tabelaPerfil th {
+    background-color: #000000;
+    color: white;
+}
+
+#saveEditor {
+    margin-top: 10px;
+    text-align: right;
+}
+
+
