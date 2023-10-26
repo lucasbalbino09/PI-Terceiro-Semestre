@@ -35,16 +35,9 @@
     <body>
 
         <!-- Barra de navegação -->
-        <header>
-            <!-- Possibilidade de colocar um favcon aqui -->
-            <img  src="/img/logoOficialOficial.png" width="10%"class="logo">
-                <!-- Favcon -->
-                <!-- <i class="ri-home-heart-fill"></i> -->
-                <!-- Tex0to -->
-
-            </a>
-
-            <!--Lista para classificar itens contidos dentro do menu-->
+        <header>            
+                <img  src="/img/logoOficialOficial.png" width="10%"class="logo">
+                        <!--Lista para classificar itens contidos dentro do menu-->
             <!--Pode ser editavel-->
             <ul class="navbar">
                 <li><a href="/" class="active">Home</a></li>

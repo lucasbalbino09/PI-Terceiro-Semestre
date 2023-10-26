@@ -48,8 +48,6 @@ class EnderecoController extends Controller
 
       public function update(Request $request, string $id){
 
-
-
         $atualizado = $this->endereco->where('ENDERECO_ID',$id)->update($request->except(['_token', '_method']));
 
         if($atualizado){
