@@ -2,41 +2,49 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(45deg, black,red);
 }
+.formulario {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-direction: column;
+}
 
 .login{
-    background-color: rgba(255, 255, 255, 0.849);
+    background-color: rgba(255, 255, 255, 0.946);
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    padding: 70px;
-    border-radius: 50px;
-    color:rgb(12, 12, 12);
-    text-align: center;
-    font-size: 20px;
+    padding: 150px;   
+    border-radius: 30px;
+    color:black;
 }
 
 .inputLogin{
-    padding: 5px;
-    border-radius:5%;
+    padding: 15px;
+    border-radius: 10px;
+    border:1px solid black;
     outline: none;
     font-size: 20px;
     color: black;
     display: block;
-    margin: 0 auto; 
-    text-align: center;
 }
 
 .buttonLogin{
-    background-color: black;
+   position: absolute;
+     background-color: black;
     border: none;
-    padding: 10px;
-    width: 20%;
+    padding: 14px;
+    width: 30%;
     border-radius: 10px;
     color:white;
     font-size: 15px;    
-    margin-top:5%;
-    margin: 10px;
+    margin-top:3%;
+    right: 35%;
+    
+}
+.label-email,.label-senha {
+    font-weight: bold;
 }
 
 button:hover{
@@ -53,7 +61,7 @@ button:hover{
 }
 
 .logo-yyt-log{
-    width: 15%;
+    width: 10%;
 }
 
 div > label {
@@ -75,11 +83,12 @@ div > label {
 }
 
 .link-yut{
+    
     text-decoration: none;
     color:rgb(5, 5, 5);
 }
 
 a:hover{
-    color: rgb(145, 143, 143);
+    color: rgb(3, 3, 227);
     cursor: pointer;
 }
