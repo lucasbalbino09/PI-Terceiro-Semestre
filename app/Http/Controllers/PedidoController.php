@@ -55,7 +55,8 @@ class PedidoController extends Controller
         $carrinho = PeditoItem::where([['PEDIDO_ID','=', $pedido->PEDIDO_ID]])->get();
          return view ('pedido.show', ['pedido' =>$pedido,'carrinho'=>$carrinho]);
 
-       }
+    }
+      
 
 
 }

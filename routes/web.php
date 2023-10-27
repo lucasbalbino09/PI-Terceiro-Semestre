@@ -50,6 +50,7 @@ Route::get('/todos', function () {
 
 Route::post('/carrinho/{produto}',[CarrinhoController::class,'store'])->name('carrinho.store');
 Route::get('/carrinho',[CarrinhoController::class, 'index'])->name('carrinho.index');
+Route::get('/carrinho/{carrinho}',[CarrinhoController::class, 'destroy'])->name('carrinho.destroy');
 
 Route::get('/endereco',[EnderecoController::class,'index'])->name('endereco.index');
 Route::post('/endereco/store',[EnderecoController::class,'store'])->name('endereco.store');

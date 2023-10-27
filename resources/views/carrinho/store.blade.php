@@ -23,8 +23,8 @@
 
                 @csrf
                 @if($item->ITEM_QTD>0)
-                      <div class="row mb-4 d-flex justify-content-between align-items-center">
-                        <div class="col-md-2 col-lg-2 col-xl-2">
+                      <div class="row mb-4 d-flex justify-content-between align-items-center">                        
+                        <div class="col-md-2 col-lg-2 col-xl-2">                          
                           <img
                             src="{{$item->Produto->ProdutoImagem[0]->IMAGEM_URL}}"
                             class="img-fluid rounded-3" alt="Cotton T-shirt">
@@ -45,7 +45,14 @@
                           <button class="btn btn-link px-2"
                             onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                             <i class="fas fa-plus"></i>
-                          </button>
+                          </button>                          
+                            <button class="excluir-dados">
+                              <i class="fa-solid fa-trash-can fa-2xs">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 448 512">
+                                  <path d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0H284.2c12.1 0 23.2 6.8 28.6 17.7L320 32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 96 0 81.7 0 64S14.3 32 32 32h96l7.2-14.3zM32 128H416V448c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V128zm96 64c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16z"/>
+                                </svg>
+                              </i>
+                            </button>                          
                         </div>
                         <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
                           @if($item->ITEM_QTD==1)
@@ -57,7 +64,7 @@
                         <div class="col-md-1 col-lg-1 col-xl-1 text-end">
                           <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
                         </div>
-                      </div>
+                      </div>                                     
                       <hr class="my-4">
                     @endif
                   @endforeach

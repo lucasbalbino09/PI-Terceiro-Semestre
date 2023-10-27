@@ -413,15 +413,17 @@ o tamanho muito grande irá quebrar a página */
         right: 2%;
     }
 }
-
 /* Fim NAVBAR */
-
-
-
 #invisivel{
     display:none;
 }
+.excluir-dados {
+    border: none;   
+}
 
+.excluir-dados:hover{
+    background-color: rgba(255, 0, 0, 0.626)    
+}
 /* CARD BOTÂO */
 
 .buttonLogin{

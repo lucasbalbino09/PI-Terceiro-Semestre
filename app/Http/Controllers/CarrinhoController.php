@@ -35,4 +35,10 @@ class CarrinhoController extends Controller
         return view ('carrinho.store')->with('carrinho',$carrinho);
 
     }
+    public function destroy(Request $request)
+    {
+        ddd($request);
+        // $request->delete();
+        // return redirect(route('carrinho.index'));
+    }
 }
