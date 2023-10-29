@@ -37,7 +37,9 @@
 
         <!-- Remember Me -->
         <div class="senhmiy">
-
+            <div>
+                <a href="/forgot-password">Esqueceu sua senha ?</a>
+            </div>
         </div>
             <div>
                 <button class="buttonLogin">
