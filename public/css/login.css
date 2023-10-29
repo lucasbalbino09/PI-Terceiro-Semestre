@@ -80,6 +80,6 @@ div > label {
 }
 
 a:hover{
-    color: rgb(145, 143, 143);
+    color: rgb(255, 5, 5);
     cursor: pointer;
 }
