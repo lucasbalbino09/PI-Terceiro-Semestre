@@ -39,7 +39,7 @@ class PedidoController extends Controller
             'PEDIDO_DATA'=> now()
         ]);
 
-        $itens = Carrinho::where([['USUARIO_ID','=', $usuarioID], ['ITEM_QTD', '>', 0]])
+        $itens = Carrinho::where([['USUARIO_ID','=', $usuario->USUARIO_ID], ['ITEM_QTD', '>', 0]])
                ->get();
                foreach($itens as $item){
                 PeditoItem::create([
