@@ -18,7 +18,7 @@
                         <h1  class="fw-bold mb-0 text-black">Obrigado pela compra!</h1>
                       <div class="d-flex justify-content-between align-items-center mb-5">                        
                         <br><br><br>
-                        <h2 class="fw-bold mb-0 text-black"> Número do pedido:{{$pedido->PEDIDO_ID}}</h1>
+                        <h2 class="fw-bold mb-0 text-black"> Número do pedido:#{{$pedido->PEDIDO_ID}}</h1>
 
                       </div>
                       <h6 class="mb-0 text-muted">Data da compra:{{$pedido->PEDIDO_DATA}}</h6>
@@ -101,7 +101,7 @@
                       </div>
                       <div class="d-flex justify-content-between mb-4">
                       <a href="/">
-                        <button type="submit" class="buttonfinalizar">Voltar</button>
+                        <button type="submit" class="buttonfinalizar">Tela Principal</button>
                       </a>
 
                     </div>

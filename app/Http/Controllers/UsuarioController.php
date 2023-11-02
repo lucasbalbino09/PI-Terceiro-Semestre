@@ -26,9 +26,10 @@ class UsuarioController extends Controller
     public function update(Request $request, string $id)
     {
 
-
-        $atualizado = $this->user->where('USUARIO_ID',$id)->update($request->except(['_token', '_method']));
-
+        
+        $atualizado = User::where('USUARIO_ID', $id)->first();
+        $atualizado->update($request->except(['_token', '_method']));
+        
         if($atualizado){
             return redirect()->back()->with('message','Atualizado com sucesso!');
         }else{

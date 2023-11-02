@@ -27,7 +27,7 @@ class PasswordResetLinkController extends Controller
     {
         // Falar com o professor (Validador confuso!)
         $request->validate([
-            'USUARIO_EMAIL' => [$request->email],
+            'USUARIO_EMAIL' => [$request->USUARIO_EMAIL],
         ]);
         
         // We will send the password reset link to this user. Once we have attempted
