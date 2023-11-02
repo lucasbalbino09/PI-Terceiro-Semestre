@@ -16,7 +16,7 @@ class ProdutoController extends Controller
               ['PRODUTO_NOME','like','%'.$search.'%']//query do banco
           ])->get();
       }else{
-          $produtos = Produto::all();//retorna todos os produtos e guarda nessa variavel
+          $produtos = Produto::all()->PRODUTO_ATIVO==1;//retorna todos os produtos e guarda nessa variavel
       }
 
 
@@ -28,7 +28,7 @@ class ProdutoController extends Controller
      // dd($produto);
      // retorna só um produto
       //return view('produto.show')->with('produto',$produto);
-   $maisProdutos = Categoria::find($produto->CATEGORIA_ID)->Produtos;
+        $maisProdutos = Categoria::find($produto->CATEGORIA_ID)->Produtos;
       return view ('produto.show', ['produto' =>$produto,'maisProdutos' => $maisProdutos]);
 
     }

@@ -35,10 +35,7 @@
                             required autocomplete="current-password" />
         </div>
 
-        <!-- Remember Me -->
-        <div class="senhmiy">
-
-        </div>
+               
             <div>
                 <button class="buttonLogin">
                     login

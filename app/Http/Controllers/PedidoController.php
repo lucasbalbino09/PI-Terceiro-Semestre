@@ -23,14 +23,23 @@ class PedidoController extends Controller
     }
     public function checkout(){
 
+      $usuario = Auth::user();      
+      
+      // Falar desse problema com o Professor!
+      // SQLSTATE[23000]: Integrity constraint violation: 1216 Cannot add or update a child row: a foreign key constraint fails
+      // (Connection: mysql, SQL: insert into `PEDIDO` (`USUARIO_ID`, `STATUS_ID`, `ENDERECO_ID`, `PEDIDO_DATA`)
+      //  values (4, 2, 1, 2023/10/29))
+
+        $enderecoId = Endereco::where('USUARIO_ID','=',$usuario->USUARIO_ID)->value('ENDERECO_ID');
+
         $pedido =Pedido::create([
-            'USUARIO_ID' => Auth::user()->USUARIO_ID,
-            'STATUS_ID' => 2,
-            // 'ENDERECO_ID' => Endereco::index()->ENDERECO_ID,
-            'PEDIDO_DATA'=> date("Y/m/d") 
+            'USUARIO_ID' => $usuario->USUARIO_ID,
+            'ENDERECO_ID' => $enderecoId,
+            'STATUS_ID' => 1,
+            'PEDIDO_DATA'=> now()
         ]);
 
-        $itens = Carrinho::where([['USUARIO_ID','=', Auth::user()->USUARIO_ID], ['ITEM_QTD', '>', 0]])
+        $itens = Carrinho::where([['USUARIO_ID','=', $usuario->USUARIO_ID], ['ITEM_QTD', '>', 0]])
                ->get();
                foreach($itens as $item){
                 PeditoItem::create([
@@ -50,12 +59,12 @@ class PedidoController extends Controller
 
       return redirect(route('pedido.show',$pedido->PEDIDO_ID));
     }
-    public function show(Pedido $pedido){
-
+    public function show(Pedido $pedido)
+    {      
         $carrinho = PeditoItem::where([['PEDIDO_ID','=', $pedido->PEDIDO_ID]])->get();
          return view ('pedido.show', ['pedido' =>$pedido,'carrinho'=>$carrinho]);
 
-       }
+    }
 
 
 }

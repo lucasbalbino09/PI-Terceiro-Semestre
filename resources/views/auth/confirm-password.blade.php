@@ -1,6 +1,6 @@
-<x-guest-layout>
+    <!-- Fala Com professor, não está validando devidamente.-->
     <div class="mb-4 text-sm text-gray-600">
-        {{ __('This is a secure area of the application. Please confirm your password before continuing.') }}
+        Esta é uma área segura do aplicativo. Por favor, confirme sua senha antes de continuar.
     </div>
 
     <form method="POST" action="{{ route('password.confirm') }}">
@@ -8,20 +8,14 @@
 
         <!-- Password -->
         <div>
-            <x-input-label for="password" :value="__('Password')" />
+            <label>Confirmar Senha:</label>
 
-            <x-text-input id="password" class="block mt-1 w-full"
-                            type="password"
-                            name="password"
-                            required autocomplete="current-password" />
-
-            <x-input-error :messages="$errors->get('password')" class="mt-2" />
+            <input id="USUARIO_SENHA" class="block mt-1 w-full" type="password" name="USUARIO_SENHA" required >            
         </div>
 
         <div class="flex justify-end mt-4">
-            <x-primary-button>
-                {{ __('Confirm') }}
-            </x-primary-button>
+            <button>
+                Confirmar
+            </button>
         </div>
     </form>
-</x-guest-layout>
