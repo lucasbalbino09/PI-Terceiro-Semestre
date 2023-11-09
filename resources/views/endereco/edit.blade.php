@@ -34,7 +34,7 @@
 
                         <div>
                             <label for="">LOGRADOURO</label>
-                            <input class="inputLogin" type="text" name="ENDERECO_LOGRADOURO" value="{{$endereco->ENDERECO_LOGRADOURO}}" required>
+                            <input placeholder="ENDERECO_LOGRADOURO" class="inputLogin" type="text" name="ENDERECO_LOGRADOURO" aria-label="LOGRADOURO" value="{{$endereco->ENDERECO_LOGRADOURO}}" required>
                         </div>
 
                         <div>

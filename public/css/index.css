@@ -53,7 +53,8 @@
 /* FOOTER */
 
 footer{
-    background: radial-gradient(circle, rgba(0,0,0,1) 27%, rgba(131,128,124,1) 100%);
+    background: radial-gradient(circle, rgb(29, 28, 28) 27%, rgb(29, 28, 28
+    ) 100%);
     padding-top: 1em;
     padding-bottom: 25px;
     border-top: 5px solid black;
@@ -71,7 +72,7 @@ footer p {
 }
 
 footer h3{
-    font-weight: 600;
+    font-size: 20px;
 }
 
 footer a{
@@ -218,7 +219,7 @@ li{
 }
 
 .dropdown-menu{
-    text-align: center;
+    text-align: left;
 }
 
 .title-secundary{
@@ -451,7 +452,7 @@ button:hover{
     border-radius: 30%;
 }
 .cardreey-pix {
-    width: 41%;
+    width: 35%;
     height: 54%;
     margin-left: 50px;
     display: block;
@@ -473,32 +474,34 @@ button:hover{
     background-color:black;
     border: none;
     padding: 10px;
-    width: 90%;
+    width: 80%;
     border-radius: 10px;
     color:white;
     font-size: 15px;    
     margin-top:5%;
+    align-items: center;
 }
 
 button:hover{
-    background-color:white;
+    background-color:black;
     cursor: pointer;
 }
 
 /* ------------------------------------- */
 .principal-yt{
     width: 30%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     position:static;
     top:0px;
     left:0%;
     padding: 0px;
     border-radius: 30px;
-    color:white;
+    color:rgb(0, 0, 0);
     margin-top: 5%;
     margin-bottom: 0;
     text-align: center;
     transform: translate(115%,-10%);
+    border: 1px solid #000;
 }
 
 .inputLogin{
@@ -506,7 +509,8 @@ button:hover{
     border:none;
     outline: none;
     font-size: 15px;
-    color: black;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
 }
 
 .button-nxy{
