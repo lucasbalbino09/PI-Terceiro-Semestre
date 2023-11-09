@@ -16,7 +16,9 @@ class ProdutoController extends Controller
               ['PRODUTO_NOME','like','%'.$search.'%']//query do banco
           ])->get();
       }else{
-          $produtos = Produto::all()->PRODUTO_ATIVO==1;//retorna todos os produtos e guarda nessa variavel
+          $produtos = Produto::where([
+            ['PRODUTO_ATIVO',1]
+          ])->get();//retorna todos os produtos e guarda nessa variavel
       }
 
 

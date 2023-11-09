@@ -61,8 +61,7 @@
 
                 <!-- Arrumar botão transparente de pesquisa -->
                 <form action="../produto" class="d-flex" role="search" method="GET">
-                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search">
-                    @if()
+                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search">                    
                     <button class="btn btn-outline-danger" type="submit"><i class="ri-search-line"></i></button>
                   </form>
 
