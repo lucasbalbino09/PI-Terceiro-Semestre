@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="/img/logoOficialOficial.png"/>
 
     <!-- Link CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="/css/index.css" media="screen"/>
 
     <!-- Link Favicon -->
@@ -33,7 +34,7 @@
         <!-- Barra de navegação -->
         <header>
             <div>
-                <a href="todos" >
+                <a href="todos">
                     <img src="/img/logoOficialOficial.png" class="logo-teste">
                 </a>                
             </div>
@@ -72,7 +73,7 @@
                 <a href="../login" class="user"><i class="ri-user-fill"></i>Fazer Login</a>
 
 
-                <a href="../register" class="bxmenu">Criar conta</a>
+                <a href="../register" class="bxmenu"><i class="ri-user-add-fill"></i>Criar conta</a>
                 <div class="bx bx-menu" id="menu-icon"></div>
             </div>
             @else

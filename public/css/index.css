@@ -352,6 +352,18 @@ o tamanho muito grande irá quebrar a página */
     margin-right: 7px;
 }
 
+.bxmenu {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.bxmenu i {
+    color: var(--main-color);
+    font-size: 25px;
+    margin-right: 7px;
+}
+
 .main a:hover{
     color: var(--main-color);
 }

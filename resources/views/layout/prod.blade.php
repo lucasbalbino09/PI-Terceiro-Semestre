@@ -31,12 +31,16 @@
         <!-- Barra de navegação -->
         <header style="margin-bottom: 60px;">
             <!-- Possibilidade de colocar um favcon aqui -->
-            <img  src="/img/logoOficialOficial.png" width="10%"class="logo">
+            {{-- <img  src="/img/logoOficialOficial.png" width="10%"class="logo"> --}}
                 <!-- Favcon -->
                 <!-- <i class="ri-home-heart-fill"></i> -->
                 <!-- Tex0to -->
+                <a href="todos">
+                    <img src="/img/logoOficialOficial.png" class="logo-teste">
+                </a> 
 
-            </a>
+            
+
 
             <!--Lista para classificar itens contidos dentro do menu-->
             <!--Pode ser editavel-->
