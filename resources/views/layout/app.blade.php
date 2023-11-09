@@ -117,7 +117,7 @@
              <div class="company-footer">
 
                 <img class="logo-yyt-log" src="/img/logoOficialOficial.png">
-                <p>A LOJA QUE TODO OTAKU AMA!</p>
+         
 
             </div>
         </div>

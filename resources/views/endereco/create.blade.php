@@ -23,7 +23,7 @@
                       @csrf
                       <div>
                           <label for="">LOGRADOURO</label>
-                          <input class="inputLogin" type="text" name="ENDERECO_LOGRADOURO" required>
+                          <input class="inputLogin" type="text" name="ENDERECO_LOGRADOURO"  required aria-label="LOGRADOURO">
                       </div>
 
                         <div>
