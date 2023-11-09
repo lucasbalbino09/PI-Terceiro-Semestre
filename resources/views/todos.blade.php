@@ -18,8 +18,7 @@
                         <img src="../img/indisponivel.jpg" class="card-img-top" alt="...">
                         @endif
                         <div class="card-body">
-                            <h5 class="card-title">{{$produto->PRODUTO_NOME}}</h5>
-                            <!-- <p class="card-text">{{$produto->PRODUTO_DESC}}</p> -->
+                            <h5 class="card-title">{{$produto->PRODUTO_NOME}}</h5>                            
                             <p class="card-text">R${{$produto->PRODUTO_PRECO}}</p>
                             <a href="{{route('produto.show', $produto->PRODUTO_ID)}}"><button type="submit" class="buttonLogin">Comprar</button></a>
                         </div>

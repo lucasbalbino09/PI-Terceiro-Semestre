@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <!-- Icone na aba da tela -->
-    <!-- <link rel="shortcut icon" href="{{ asset('logoOficial.png') }}" type="image/x-icon">
-    <link rel="icon" href="{{ asset('logoOficial.png') }}" type="image/x-icon"> -->
-
-    <!-- Icone na barra de navegação -->
+     <!-- Icone na barra de navegação -->
     <link rel="icon" type="image/png" href="/img/logoOficialOficial.png"/>
 
     <!-- Link CSS -->
@@ -66,6 +62,7 @@
                 <!-- Arrumar botão transparente de pesquisa -->
                 <form action="../produto" class="d-flex" role="search" method="GET">
                     <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search">
+                    @if()
                     <button class="btn btn-outline-danger" type="submit"><i class="ri-search-line"></i></button>
                   </form>
 

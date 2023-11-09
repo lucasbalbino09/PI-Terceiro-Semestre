@@ -10,7 +10,7 @@ class UsuarioController extends Controller
 {
     public function __construct()
     {
-     $this->user = new User();
+     this->user = new User();
     }
 
     public function show(User $user){
@@ -25,7 +25,6 @@ class UsuarioController extends Controller
 
     public function update(Request $request, string $id)
     {
-
         
         $atualizado = User::where('USUARIO_ID', $id)->first();
         $atualizado->update($request->except(['_token', '_method']));
