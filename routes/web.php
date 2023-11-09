@@ -45,7 +45,7 @@ Route::get('/todos', function () {
   return view('todos')->with('produtos',$produtos);
 
 
-});
+})->name('todos');
 
 
 Route::delete('/carrinho/{produto}',[CarrinhoController::class,'delete'])->name('carrinho.remove');

@@ -435,6 +435,9 @@ o tamanho muito grande irá quebrar a página */
     font-size: 15px;    
     margin-top:5%;
 }
+.logo-teste {
+    width: 200px;
+}
 
 button:hover{
     background-color: rgb(251, 56, 56);

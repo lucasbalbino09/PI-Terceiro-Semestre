@@ -31,8 +31,12 @@
     <body>
 
         <!-- Barra de navegação -->
-        <header>            
-                <img  src="/img/logoOficialOficial.png" width="10%"class="logo">
+        <header>
+            <div>
+                <a href="todos" >
+                    <img src="/img/logoOficialOficial.png" class="logo-teste">
+                </a>                
+            </div>
                         <!--Lista para classificar itens contidos dentro do menu-->
             <!--Pode ser editavel-->
             <ul class="navbar">
