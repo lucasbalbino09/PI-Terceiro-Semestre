@@ -447,6 +447,11 @@ o tamanho muito grande irá quebrar a página */
     font-size: 15px;    
     margin-top:5%;
 }
+
+.buttonLogin:hover {
+    background-color: #1d1f1d;
+  }
+
 .logo-teste {
     width: 200px;
 }
