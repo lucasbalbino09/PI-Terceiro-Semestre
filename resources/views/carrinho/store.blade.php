@@ -104,7 +104,7 @@
                       </div>
 
                       <div class="d-flex justify-content-between mb-4">
-                        <a href="/">
+                        <a href="/" style="color: black; text-decoration: none;">
                           <h4>Voltar</h4>
                         </a>
                       </div>

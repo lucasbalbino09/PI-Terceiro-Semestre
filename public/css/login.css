@@ -31,17 +31,17 @@ body{
     background-color: black;
     border: none;
     padding: 10px;
-    width: 20%;
+    width: 25%;
     border-radius: 10px;
     color:white;
-    font-size: 15px;    
+    font-size: 19px;    
     margin-top:5%;
     margin: 10px;
 }
 
 button:hover{
-    background-color: red;
-    color: black;
+    background-color:black;
+    color: white;
     cursor: pointer;
 }
 

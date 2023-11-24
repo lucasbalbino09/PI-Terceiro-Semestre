@@ -22,16 +22,17 @@
         </div>
         <!-- Email Address -->
         <div>
-            <label for="email">Email </label>
-            <input class="inputLogin" type="email" name="email" :value="old('email')" required autofocus autocomplete="username">
+            <label for="email"> </label>
+            <input class="inputLogin" type="email" name="email" :value="old('email')"  placeholder="Digite seu Email"required autofocus autocomplete="username">
         </div>
 
         <!-- Password -->
         <div>
-            <label for="password">Senha </label>
+            <label for="password"> </label>
             <input id="password" class="inputLogin"
                             type="password"
                             name="password"
+                            placeholder="Digite sua Senha"
                             required autocomplete="current-password" />
         </div>
 

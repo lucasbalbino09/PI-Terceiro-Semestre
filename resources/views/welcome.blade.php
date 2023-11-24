@@ -33,12 +33,16 @@
 
     </div>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" style="
+    background-color: #ffffff00;
+">
+        <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: black;"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" style="
+    background-color: #ffffff00;
+">
+        <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: black;"></span>
         <span class="visually-hidden">Next</span>
     </button>
 </div>
@@ -73,8 +77,8 @@
                 <img src="{{ asset('img/indisponivel.jpg') }}" class="card-img-top" alt="Imagem Indisponível">
             @endif
                 <div class="card-body">
-                    <h5 class="card-title">{{$produto->PRODUTO_NOME}}</h5>
-                    <p class="card-text">R${{$produto->PRODUTO_PRECO}}</p>
+                    <p class="card-title">{{$produto->PRODUTO_NOME}}</p>
+                    <p class="card-text" style="font-size: 25px; font-weight: bold;">R${{$produto->PRODUTO_PRECO}}</p>
                     <a href="{{route('produto.show', $produto->PRODUTO_ID)}}">
                         <button type="submit" class="buttonLogin">Comprar <i class="ri-shopping-cart-line"></i></button></a>
                 </div>
@@ -112,8 +116,8 @@
             <img src="{{ asset('img/indisponivel.jpg') }}" class="card-img-top" alt="Imagem Indisponível">
         @endif
                         <div class="card-body">
-                            <h5 class="card-title">{{$produto->PRODUTO_NOME}}</h5>
-                            <p class="card-text">R${{$produto->PRODUTO_PRECO}}</p>
+                            <p class="card-title">{{$produto->PRODUTO_NOME}}</p>
+                            <p class="card-text" style="font-size: 25px; font-weight: bold;">R${{$produto->PRODUTO_PRECO}}</p>
                             <a href="{{route('produto.show', $produto->PRODUTO_ID)}}"><button type="submit" class="buttonLogin">Comprar <i class="ri-shopping-cart-line"></i></button></a>
                         </div>
                     </div>
