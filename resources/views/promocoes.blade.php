@@ -9,7 +9,7 @@
 
 </style>
 
-    <h1>Produtos abaixo de R$ 100,00</h1>
+    <h1>Produtos abaixo de <span style="font-weight: bold;"> R$ 100,00 </span></h1>
 
    @foreach($produtos as $produto)
 
@@ -36,9 +36,8 @@
     <img src="{{ asset('img/indisponivel.jpg') }}" class="card-img-top" alt="Imagem Indisponível">
 @endif
         <div class="card-body">
-            <h5 class="card-title">{{$produto->PRODUTO_NOME}}</h5>
-            <!-- <p class="card-text">{{$produto->PRODUTO_DESC}}</p> -->
-            <p class="card-text">R${{$produto->PRODUTO_PRECO}}</p>
+            <p class="card-title">{{$produto->PRODUTO_NOME}}</p>
+            <p class="card-text"><strong style="font-size: 25px; color: red;">R${{$produto->PRODUTO_PRECO}}</strong> </p>
             <a href="{{route('produto.show', $produto->PRODUTO_ID)}}"><button type="submit" class="buttonLogin">Comprar</button></a>
         </div>
     </div>

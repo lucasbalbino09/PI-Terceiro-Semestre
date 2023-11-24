@@ -176,11 +176,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
-        <div class="wrapper">
-            <p>@Charlie - 2023</p>
-        </div>
-    </div>
+    
     </footer>
 <!-- FIM FOOTER -->
 

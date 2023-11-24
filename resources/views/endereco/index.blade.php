@@ -39,16 +39,16 @@
                 <td>{{$endereco->ENDERECO_CEP}}</td>
                 <td>{{$endereco->ENDERECO_CIDADE}}</td>
                 <td>{{$endereco->ENDERECO_ESTADO}}</td>
-                <td> <a href="{{route('endereco.edit',['endereco'=>$endereco->ENDERECO_ID])}} " class="btn btn-primary" role="button">Editar</a></td></td>
+                <td> <a href="{{route('endereco.edit',['endereco'=>$endereco->ENDERECO_ID])}} " class="btn btn-dark" role="button">Editar</a></td></td>
 
             </tr>
         @endforeach
         </table>
             <ol>
                 <li>
-                    <a href="{{route('endereco.create')}}">
+                    <a href="{{route('endereco.create')}}" style="text-decoration: none;">
 
-                      <button type="submit" class="d-flex justify-content-end btn btn-primary btn-lg ms-auto mb-4 p-2 fs-6">Inserir novo endereço</button>
+                      <button type="submit" class="d-flex justify-content-end btn btn-dark btn-lg ms-auto mb-4 p-2 fs-6">Inserir novo endereço</button>
                     </a>
                 </li>
             </ol>

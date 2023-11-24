@@ -35,20 +35,20 @@ function semLetra(a){
         <!--Campo input para colocar login/nome-->
 
         <div>
-            <label for="nome">Nome</label>
-            <input class="inputLogin" type="text" placeholder="Digite seu nome" id="name" name="name" required>
+            <label for="nome"></label>
+            <input class="inputLogin" type="text" placeholder="Digite seu Nome" id="name" name="name" required>
         </div>
 
         <div>
         <!--Campo input para colocar senha-->
-            <label for="nome">Email</label>
-            <input class="inputLogin" type="email" id="email" name="email" placeholder="Digite seu email" required> 
+            <label for="nome"></label>
+            <input class="inputLogin" type="email" id="email" name="email" placeholder="Digite seu Email" required> 
         </div>
 
         <div>
         <!-- Campo para colocar senha -->
-            <label for="senha">Senha</label>
-            <input class="inputLogin" type="password" name="password" placeholder="Senha" required>
+            <label for="senha"></label>
+            <input class="inputLogin" type="password" name="password" placeholder="Crie uma Senha" required>
         </div>
 
         <!-- Esse campo não existe -->
@@ -56,8 +56,8 @@ function semLetra(a){
 
 
         <div>
-            <label for="CPF">CPF</label>
-            <input class="inputLogin" id="cpf" class="block mt-1 w-full" type="text" minlength="11" maxlength="11" onkeypress="return semLetra(event)" name="cpf"/>
+            <label for="CPF"></label>
+            <input class="inputLogin" id="cpf" class="block mt-1 w-full" type="text"  placeholder="Digite seu CPF" minlength="11" maxlength="11" onkeypress="return semLetra(event)" name="cpf"/>
         </div>
 
         <button class="buttonLogin" >{{ __('Cadastrar') }}</button>
