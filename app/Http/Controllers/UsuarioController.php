@@ -10,7 +10,7 @@ class UsuarioController extends Controller
 {
     public function __construct()
     {
-     this->user = new User();
+      //$this->user = new User();
     }
 
     public function show(User $user){

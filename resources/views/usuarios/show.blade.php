@@ -9,8 +9,7 @@
           <th>Nome de Usuário</th>
           <th>E-mail</th>
           <th>CPF</th>
-        </tr>
-    
+        </tr>    
    
         <tr>
           <td>{{$user->USUARIO_NOME}}</td>

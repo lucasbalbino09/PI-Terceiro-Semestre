@@ -27,10 +27,9 @@
                                     <input type="email" class="form-control" id="exampleInputPassword1" name="USUARIO_EMAIL" value="{{$user->USUARIO_EMAIL}}" required>
                             </div>
                                 
-                            <div class="salvar-editar">
-                            <button id ="saveEditor" type="submit" class="btn btn-primary">Salvar</button>
+                            <div class="salvar-editar">                           
                                     <a href="/">
-                                        <button type="submit" class="btn btn-danger">Voltar</button>
+                                        <input type="submit" class="btn btn-danger">Voltar</input>
                                     </a>
                             </div>        
             </form>
