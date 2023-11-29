@@ -5,11 +5,7 @@
 <script>
         function login() {
             window.alert('Você precisa de uma conta para acessar o carrinho!');
-        }
-        // function aviso(){
-        //     alert('Você deve inserir a quantidade que deseja!');
-        //     document.location.reload(true);
-        // }
+        }        
 </script>
     <main>
         <div class="content">
@@ -25,7 +21,7 @@
                 <span>Quantidade disponivel:{{$produto->PRODUTO_QTD}}</span>
                 <span>Valor original:R${{$produto->PRODUTO_PRECO}} </span>
                 <span>Desconto:R${{$produto->PRODUTO_DESCONTO}}</span><br><br>
-              <!--  <span>{{\App\Models\Categoria::find($produto->CATEGORIA_ID)->Produtos}}</span>-->
+              
 
                 <!--ira filtrar todos os produtos com a mesma categoria do produto da tela-->
                 <span>Valor do produto com desconto: R${{$produto->PRODUTO_PRECO - $produto->PRODUTO_DESCONTO}}</span><br><br><br>

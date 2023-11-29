@@ -34,7 +34,7 @@
         <!-- Barra de navegação -->
         <header>
             <div>
-                <a href="todos">
+                <a href="/">
                     <img src="/img/logoOficialOficial.png" class="logo-teste">
                 </a>                
             </div>
@@ -57,8 +57,7 @@
   </ul>
 </div>
 
-                <!-- <li><a href="#">Blog</a></li>
-                <li><a href="#">Contato</a></li> -->
+           
                 <li><a href="/promocoes">Promoções</a></li>
             </ul>
             @if(!Auth::check())

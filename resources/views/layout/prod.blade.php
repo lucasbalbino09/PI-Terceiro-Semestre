@@ -32,8 +32,7 @@
         <header style="margin-bottom: 60px;">
             <!-- Possibilidade de colocar um favcon aqui -->
             {{-- <img  src="/img/logoOficialOficial.png" width="10%"class="logo"> --}}
-                <!-- Favcon -->
-                <!-- <i class="ri-home-heart-fill"></i> -->
+                <!-- Favcon -->              
                 <!-- Tex0to -->
                 <a href="todos">
                     <img src="/img/logoOficialOficial.png" class="logo-teste">
@@ -60,9 +59,6 @@
                 @endforeach
             </ul>
             </div>
-
-                <!-- <li><a href="#">Blog</a></li>
-                <li><a href="#">Contato</a></li> -->
                 <li><a href="#">Promoções</a></li>
             </ul>
             @if(!Auth::check())
@@ -140,15 +136,12 @@
                     <h3>Formas de pagamento</h3>
                     <ul class="footer-list footer-article-list">
                         <li>
-                            <!-- <span class="article-date">PIX</span> -->
                             <img class="cardreey" src="/img/cardpix.png">
                         </li>
                         <li>
-                            <!-- <span class="article-date">PIX</span> -->
                             <img class="cardreey" src="/img/cardvisa.png">
                         </li>
                         <li>
-                            <!-- <span class="article-date">PIX</span> -->
                             <img class="cardreey" src="/img/boleto.jpg">
                         </li>
 
@@ -183,12 +176,7 @@
                     </ul>
                 </div>
             </div>
-            </div>
-            <!-- <div class="footer-bottom">
-            <div class="wrapper">
-                <p>@Charlie - 2023</p>
-            </div>
-            </div> -->
+            </div>           
             </footer>
             <!-- FIM FOOTER -->
 
