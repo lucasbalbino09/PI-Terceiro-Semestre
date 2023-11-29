@@ -15,8 +15,7 @@ class CategoriaController extends Controller
        
         $maisProdutos = Categoria::find($categoria->CATEGORIA_ID)->Produtos;
         $produto = Produto::where('CATEGORIA_ID',$categoria->CATEGORIA_ID)->get();
-        return view ('categoria.show', ['categoria' =>$categoria,'maisProdutos' => $maisProdutos, 'produto',$produto]);
-    
+        return view ('categoria.show', ['categoria' =>$categoria,'maisProdutos' => $maisProdutos, 'produto',$produto]);    
 
     }
 }
