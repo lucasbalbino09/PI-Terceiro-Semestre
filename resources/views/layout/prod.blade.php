@@ -30,14 +30,12 @@
 
         <!-- Barra de navegação -->
         <header style="margin-bottom: 60px;">
-            <!-- Possibilidade de colocar um favcon aqui -->
-            {{-- <img  src="/img/logoOficialOficial.png" width="10%"class="logo"> --}}
+            <!-- Possibilidade de colocar um favcon aqui -->            
                 <!-- Favcon -->              
                 <!-- Tex0to -->
                 <a href="todos">
                     <img src="/img/logoOficialOficial.png" class="logo-teste">
                 </a> 
-
             
 
 
@@ -49,7 +47,7 @@
                 <li>
                 <div class="dropdown">
             <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Categorias
+                <strong>Categorias</strong> 
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             @foreach(\App\Models\Categoria::all() as $categoria)
