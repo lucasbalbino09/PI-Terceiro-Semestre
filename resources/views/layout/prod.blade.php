@@ -31,14 +31,10 @@
         <!-- Barra de navegação -->
         <header style="margin-bottom: 60px;">
             <!-- Possibilidade de colocar um favcon aqui -->            
-                <!-- Favcon -->              
-                <!-- Tex0to -->
-                <a href="todos">
+                <!-- Favcon -->
+                <a href="/">
                     <img src="/img/logoOficialOficial.png" class="logo-teste">
-                </a> 
-            
-
-
+                </a>
             <!--Lista para classificar itens contidos dentro do menu-->
             <!--Pode ser editavel-->
             <ul class="navbar">
