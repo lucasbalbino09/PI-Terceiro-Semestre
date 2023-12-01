@@ -51,6 +51,7 @@ Route::get('/todos', function () {
 Route::delete('/carrinho/{produto}',[CarrinhoController::class,'delete'])->name('carrinho.remove');
 Route::post('/carrinho/{produto}',[CarrinhoController::class,'store'])->name('carrinho.store');
 Route::get('/carrinho',[CarrinhoController::class, 'index'])->name('carrinho.index');
+Route::put('/carrinho/{produto}', [CarrinhoController::class, 'putAdicionar'])->name('carrinho.adicionar');
 
 Route::get('/endereco',[EnderecoController::class,'index'])->name('endereco.index');
 Route::post('/endereco/store',[EnderecoController::class,'store'])->name('endereco.store');
