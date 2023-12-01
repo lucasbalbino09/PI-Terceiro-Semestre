@@ -23,6 +23,7 @@
     <section>
         <table>
             <ol>
+                <h1 style="margin-top:39px;">Endereço</h1>
                 <li>
                 <form action="{{route('endereco.update',['endereco'=>$endereco->ENDERECO_ID])}}" method="post" >
                       @csrf

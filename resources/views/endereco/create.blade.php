@@ -18,12 +18,13 @@
     <section>
         <table>
             <ol>
+                <h1 style="margin-top:39px;">Endereço</h1>
                 <li>
                     <form action="{{route('endereco.store')}}"  method="POST">
                       @csrf
                       <div>
                           <label for="">LOGRADOURO</label>
-                          <input class="inputLogin" type="text" name="ENDERECO_LOGRADOURO"  required aria-label="LOGRADOURO">
+                          <input class="inputLogin"  type="text" name="ENDERECO_LOGRADOURO"  required aria-label="LOGRADOURO">
                       </div>
 
                         <div>

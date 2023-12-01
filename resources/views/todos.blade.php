@@ -8,7 +8,7 @@
     }
 
 </style>
-<h1>novidades e coleções</h1>
+<h1>Novidades e Coleções</h1>
 
 @foreach($produtos as $produto)
     <div class="card" style="width: 30rem;">
@@ -19,7 +19,7 @@
         @endif
         <div class="card-body">
             <h5 class="card-title">{{ $produto->PRODUTO_NOME }}</h5>                            
-            <p class="card-text">R${{ $produto->PRODUTO_PRECO }}</p>
+            <p class="card-text"><strong style="font-size: 25px; color: red;"> R${{ $produto->PRODUTO_PRECO }} </strong></p>
             <a href="{{ route('produto.show', $produto->PRODUTO_ID) }}">
                 <button type="submit" class="buttonLogin">Comprar</button>
             </a>

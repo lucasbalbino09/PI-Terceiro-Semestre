@@ -41,12 +41,17 @@
                         <!--Lista para classificar itens contidos dentro do menu-->
             <!--Pode ser editavel-->
             <ul class="navbar">
-                <li><a href="/" class="active">Home</a></li>
-                <li><a href="/todos">Novidades</a></li>
-                <li>
+                <li><a href="/" class="active"><strong style="font-size: 17px; font-weight:bold;">Home</strong></a></li>
+                <li><a href="/todos"><strong style="font-size: 17px;  font-weight:bold;">Novidades</strong></a></li>
+                
+                
+
+           
+                <li><a href="/promocoes"><strong style="font-size: 17px; font-weight:bold;">Promoções </strong> </a></li>
+
                 <div class="dropdown">
-  <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Categorias
+  <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="border: none;">
+   <strong style="font-size: 17px;  font-weight:bold;"> Categorias</strong>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
   @foreach(\App\Models\Categoria::all() as $categoria)
@@ -57,15 +62,13 @@
   </ul>
 </div>
 
-           
-                <li><a href="/promocoes">Promoções</a></li>
             </ul>
             @if(!Auth::check())
             <div class="main">
 
                 <!-- Arrumar botão transparente de pesquisa -->
                 <form action="../produto" class="d-flex" role="search" method="GET">
-                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search">                    
+                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search" style=" border: solid black 2px;">                    
                     <button class="btn btn-outline-danger" type="submit"><i class="ri-search-line"></i></button>
                   </form>
 
@@ -81,7 +84,7 @@
 
                 <!-- Arrumar botão transparente de pesquisa -->
                 <form action="../produto" class="d-flex" role="search" method="GET">
-                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search">
+                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search" style=" border: solid black 2px;">
                     <button class="btn btn-outline-danger" type="submit"><i class="ri-search-line"></i></button>
                   </form>
 

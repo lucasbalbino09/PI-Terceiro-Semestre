@@ -63,7 +63,7 @@
                 @endif
                 <div class="card-body">
                     <p class="card-title">{{$produto->PRODUTO_NOME}}</p>
-                    <p class="card-text" style="font-size: 25px; font-weight: bold;">R${{$produto->PRODUTO_PRECO}}</p>
+                    <p class="card-text" style="font-size: 25px; font-weight: bold; color: red;">R${{$produto->PRODUTO_PRECO}}</p>
                     <a href="{{route('produto.show', $produto->PRODUTO_ID)}}">
                         <button type="submit" class="buttonLogin">Comprar <i class="ri-shopping-cart-line"></i></button></a>
                 </div>
@@ -102,7 +102,7 @@
         @endif
                         <div class="card-body">
                             <p class="card-title">{{$produto->PRODUTO_NOME}}</p>
-                            <p class="card-text" style="font-size: 25px; font-weight: bold;">R${{$produto->PRODUTO_PRECO}}</p>
+                            <p class="card-text" style="font-size: 25px; font-weight: bold; color: red;">R${{$produto->PRODUTO_PRECO}}</p>
                             <a href="{{route('produto.show', $produto->PRODUTO_ID)}}"><button type="submit" class="buttonLogin">Comprar <i class="ri-shopping-cart-line"></i></button></a>
                         </div>
                     </div>

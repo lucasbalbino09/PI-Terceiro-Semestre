@@ -43,7 +43,7 @@
 
                 <div>
                     <label for="">Adicionar quantidade</label>
-                    <input type="number" name="ITEM_QTD" min="1" value="1">
+                    <input type="number" name="ITEM_QTD" min="1" value="1" style="text-align: center;">
 
                     <button type="submit" class="buttoncarrinho" onclick="aviso()">Adicionar ao carrinho</button>
                 </div>

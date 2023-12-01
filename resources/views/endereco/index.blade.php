@@ -6,7 +6,7 @@
     <a href="{{route('endereco.create')}}">
 
         <button type="submit" class="btn btn-dark btn-block btn-lg"
-        data-mdb-ripple-color="dark">Cadastrar novo endereço</button>
+        data-mdb-ripple-color="dark" style="margin-top:60px; margin-left:200px;">Cadastrar Novo Endereço</button>
         </a>
 
 @else
