@@ -499,6 +499,12 @@ button:hover{
     font-size: 15px;    
     margin-top:5%;
     align-items: center;
+    margin-left: 20px;
+}
+
+.buttonsair:hover{
+    background-color:black;
+    cursor: pointer;
 }
 
 button:hover{
@@ -542,6 +548,11 @@ button:hover{
     font-size: 15px;    
     margin-top:5%;
 }
+
+.button-nxy:hover{
+    background-color:black;
+
+}
 /* botão do carrocel */
 button:hover{
     background-color:rgba(0, 0, 0, 0.103);
@@ -582,11 +593,10 @@ h1{
 }
 
 .principal-typ{
-    border:4px solid black;
+    border:1px solid black;
     width: 60%;
     margin-left: 20%;
-    background: radial-gradient(circle, rgba(87,84,81,1) 0%, rgba(0,0,0,1) 77%);
-    color:white;
+    color:rgb(3, 3, 3);
     margin-top: 3%;
     border-radius: 10px;
     padding: 25px 12px 10px;
@@ -645,7 +655,27 @@ h1{
 .salvar-editar {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
+
+.inicioV{
+    background-color: #DC3545;
+   
+    border:solid #DC3545 5px;
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+
+
+}
+.inicioV:hover{
+
+ background-color: #BB2D3B;
+ border:solid #BB2D3B 5px;
+
+}
+
+
 /* d-flex justify-content-between mb-4 */
 /* .d-flex justify-content-between mb-4 */
 

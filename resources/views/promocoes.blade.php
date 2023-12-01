@@ -8,7 +8,7 @@
     }
 </style>
 
-<h1>Produtos abaixo de <span style="font-weight: bold;"> R$ 100,00 </span></h1>
+<h1>Produtos Abaixo de <span style="font-weight: bold;"> R$ 100,00 </span></h1>
 
 @foreach($produtos as $produto)
 

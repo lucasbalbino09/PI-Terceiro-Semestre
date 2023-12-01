@@ -64,7 +64,7 @@
 
                 <!-- Arrumar botão transparente de pesquisa -->
                 <form action="../produto" class="d-flex" role="search" method="GET">
-                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search">
+                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search" style=" border: solid black 2px;">
                     <button class="btn btn-outline-danger" type="submit"><i class="ri-search-line"></i></button>
                   </form>
 
@@ -80,7 +80,7 @@
 
                 <!-- Arrumar botão transparente de pesquisa -->
                 <form action="../produto" class="d-flex" role="search" method="GET">
-                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search">
+                    <input class="form-control me-2" type="text" id="search" name="search"  aria-label="Search" style=" border: solid black 2px;">
                     <button class="btn btn-outline-danger" type="submit"><i class="ri-search-line"></i></button>
                   </form>
 

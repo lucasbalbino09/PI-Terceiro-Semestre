@@ -94,11 +94,14 @@ li {
     background-color: black;
     border: none;
     padding: 5px;
-    width: 60%;
+    width: 40%;
     border-radius: 10px;
     color:white;
     font-size: 20px;    
     margin-top:6%;
+}
+.buttoncarrinho:hover{
+    background-color: black;
 }
 
 button:hover{
@@ -126,6 +129,17 @@ button:hover{
 
 .voltarhme{
     text-decoration: none;
+    
 }
 
 
+.lixeira{
+    border: none;
+    margin-left: 15px;
+
+}
+
+.lixeira:hover{
+    background: none;
+
+}
