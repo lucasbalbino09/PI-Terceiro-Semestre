@@ -38,9 +38,9 @@
             <!--Lista para classificar itens contidos dentro do menu-->
             <!--Pode ser editavel-->
             <ul class="navbar">
-                <li><a href="/" class="active">Home</a></li>
-                <li><a href="#">Mais vendidos</a></li>
-                <li>
+            <li><a href="/" class="active"><strong style="font-size: 17px; font-weight:bold;">Home</strong></a></li>
+            <li><a href="/todos"><strong style="font-size: 17px;  font-weight:bold;">Novidades</strong></a></li>
+                
                 <div class="dropdown">
             <button class="btn btn-transparent dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 <strong>Categorias</strong> 
@@ -53,7 +53,7 @@
                 @endforeach
             </ul>
             </div>
-                <li><a href="#">Promoções</a></li>
+            <li><a href="/promocoes"><strong style="font-size: 17px; font-weight:bold;">Promoções </strong> </a></li>
             </ul>
             @if(!Auth::check())
             <div class="main">

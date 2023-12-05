@@ -25,11 +25,6 @@ class PedidoController extends Controller
 
       $usuario = Auth::user();      
       
-      // Falar desse problema com o Professor!
-      // SQLSTATE[23000]: Integrity constraint violation: 1216 Cannot add or update a child row: a foreign key constraint fails
-      // (Connection: mysql, SQL: insert into `PEDIDO` (`USUARIO_ID`, `STATUS_ID`, `ENDERECO_ID`, `PEDIDO_DATA`)
-      //  values (4, 2, 1, 2023/10/29))
-
         $enderecoId = Endereco::where('USUARIO_ID','=',$usuario->USUARIO_ID)->value('ENDERECO_ID');
 
         $pedido =Pedido::create([
@@ -41,23 +36,24 @@ class PedidoController extends Controller
 
         $itens = Carrinho::where([['USUARIO_ID','=', $usuario->USUARIO_ID], ['ITEM_QTD', '>', 0]])
                ->get();
-               foreach($itens as $item){
-                PeditoItem::create([
-                  'PEDIDO_ID' =>$pedido->PEDIDO_ID,
-                  'PRODUTO_ID' => $item->PRODUTO_ID,
-                  'ITEM_QTD' => $item->ITEM_QTD,
-                  'ITEM_PRECO'=>$item->Produto->PRODUTO_PRECO
-              ]);
-
-              $item->update([
-                'ITEM_QTD'=>0
-
-              ]);
-
-               }
-
-
-      return redirect(route('pedido.show',$pedido->PEDIDO_ID));
+               if(count($itens) > 0) {
+                 foreach($itens as $item){
+                  
+                  PeditoItem::create([
+                    'PEDIDO_ID' =>$pedido->PEDIDO_ID,
+                    'PRODUTO_ID' => $item->PRODUTO_ID,
+                    'ITEM_QTD' => $item->ITEM_QTD,
+                    'ITEM_PRECO'=>$item->Produto->PRODUTO_PRECO
+                ]);
+                $item->update([
+                  'ITEM_QTD'=>0
+  
+                ]);
+  
+                 }                 
+                 return redirect(route('pedido.show',$pedido->PEDIDO_ID));
+               }           
+               return redirect()->back()->with('error', 'Erro ao criar pedido. O carrinho está vazio.');
     }
     public function show(Pedido $pedido)
     {      
