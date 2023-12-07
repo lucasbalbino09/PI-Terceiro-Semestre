@@ -27,6 +27,10 @@ class PedidoController extends Controller
       
         $enderecoId = Endereco::where('USUARIO_ID','=',$usuario->USUARIO_ID)->value('ENDERECO_ID');
 
+        if($enderecoId == 0 || $enderecoId == null){
+          return redirect(route('endereco.create'));
+        }
+
         $pedido =Pedido::create([
             'USUARIO_ID' => $usuario->USUARIO_ID,
             'ENDERECO_ID' => $enderecoId,
